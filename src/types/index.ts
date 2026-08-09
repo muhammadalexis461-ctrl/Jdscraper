@@ -17,6 +17,7 @@ export interface NormalizedProduct {
   availability?: boolean;
   productUrl?: string;
   scrapedAt?: string;
+  title?: string;
 }
 
 export interface ScrapedRecord {
