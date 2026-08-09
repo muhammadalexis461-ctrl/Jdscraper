@@ -10,6 +10,7 @@
     "build": "tsc",
     "start": "node dist/cli/index.js",
     "dev": "ts-node src/cli/index.ts",
+    "api": "ts-node src/api/main.ts",
     "test": "jest",
     "lint": "eslint src/**/*.ts",
     "clean": "rm -rf dist"
